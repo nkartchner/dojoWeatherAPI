@@ -1,0 +1,10 @@
+    <h1 class='resultHeader'>Chicago, IL</h1>
+    <img src="http://pinegrow.com/placeholders/img19.jpg" class="cityImage"/>
+    <datalist class="info"></datalist>
+    <dl class="info"> 
+      <dd>Humidity: {{weather.main.humidity}}</dd>                     
+      <dd>Temperature (Average): {{ weather.main.temp }}</dd>      
+      <dd>Temperature (High): {{ weather.main.temp_max }}</dd>      
+      <dd>Temperature (Low): {{ weather.main.temp_min }}</dd>      
+      <dd>Status: {{ weather.weather[0].description }}</dd>      
+    </dl>
